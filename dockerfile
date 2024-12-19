@@ -28,7 +28,8 @@ RUN pip install --no-cache-dir --upgrade pip && \
     mediapipe \
     diffusers \
     prodigyopt \
-    pytest 
+    pytest \
+    git+https://github.com/sberbank-ai/Real-ESRGAN.git
 
 # Set the working directory
 WORKDIR /app
